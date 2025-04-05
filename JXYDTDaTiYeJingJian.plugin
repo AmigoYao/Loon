@@ -14,5 +14,5 @@
 hostname=kaoshiapi.ksedt.com,pic*.*cdn.com.cn
 
 [Rewrite]
-https://kaoshiapi.ksedt.com/sns/exam/getQuestionInfo response-body-json-del result.skillEntity.answerPageLiveRelevantInfoRespModel result.specialInfo result.qstNoteDeepLink
+https://kaoshiapi.ksedt.com/sns/exam/getQuestionInfo response-body-json-del result.skillEntity.answerPageLiveRelevantInfoRespModel result.specialInfo
 https://pic\d+.\d+cdn.com.cn/nowater/azerothupload/activity/image/n_.*.png 302 https://raw.githubusercontent.com/AmigoYao/open/refs/heads/main/transparent.png
